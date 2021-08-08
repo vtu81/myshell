@@ -29,7 +29,7 @@
 ### Compile
 
 ```shell
-g++ myshell.c -o myshell
+gcc myshell.c -o myshell
 ```
 
 ### Run
@@ -38,3 +38,10 @@ g++ myshell.c -o myshell
 ./myshell
 ```
 
+Then you should see prompt like:
+
+```bash
+[vtu@iZbp16377ws99tou7ccq10Z /home/vtu/myshell]$
+```
+
+Enter commands and enjoy the simple shell now!
