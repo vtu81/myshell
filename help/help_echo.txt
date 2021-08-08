@@ -1,0 +1,4 @@
+echo: echo [arg ...] 
+    Write arguments to the standard output.
+    Display the ARGs on the standard output followed by a newline.
+    支持I/O重定向，通过命令：help redirection 查看。

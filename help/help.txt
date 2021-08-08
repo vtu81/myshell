@@ -1,0 +1,40 @@
+myshell, version 0.0.1, written by VTU
+
+myshell: myshell ([myshell_script_file] [arg1] [arg2] ... [argn])
+    没有参数时，myshell将在屏幕上显示提示符请求用户输入。
+    否则myshell将认为输入的第二个字段为myshell可执行脚本文件，从文件中提取命令行输入，当到达文件结尾时myshell退出
+
+help: help ([name])
+    通过 'help name' 查看 'name' 命令的功能.
+    内置命令包括：
+    help cd
+    help clr
+    help dir
+    help echo
+    help environ
+    help exec
+    help exit
+    help jobs
+    help ls
+    help pwd
+    help quit
+    help set
+    help shift
+    help time
+    help umask
+    help unset
+
+    I/O重定向功能：
+    help redirection
+
+    变量赋值功能：
+    help assignment
+
+    后台执行进程功能：
+    help background
+
+    管道功能：
+    help pipe
+
+    其他的命令行输入被解释为程序调用，myshell将在当前工作目录和'/bin/'目录下依次查找相应的文件传入参数执行，并作为自己的子进程。程序的执行的环境变量包含以下条目：
+    parent=<pathname>/myshell

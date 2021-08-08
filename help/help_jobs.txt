@@ -1,0 +1,3 @@
+jobs: jobs
+    查看所有在myshell中通过'&'标志在后台执行的子进程。
+    如需了解'&'后台标志的作用，请输入命令：help background 查看。

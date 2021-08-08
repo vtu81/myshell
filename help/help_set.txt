@@ -1,0 +1,3 @@
+set: set
+    查看当前所有环境变量。
+    支持I/O重定向，通过命令：help redirection 查看。

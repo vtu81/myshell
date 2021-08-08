@@ -1,0 +1,4 @@
+unset: unset [arg]
+    释放一个用户自定义变量或者一个可以修改的环境变量。
+    例：unset test
+    注意：'head'、'shell'、'$0'~'$20'无法unset。

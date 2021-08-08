@@ -1,0 +1,4 @@
+redirection: [command] [arg1] [arg2] ... [argn] < [inputfile] >(or >>) [outputfile]
+    外部命令均支持I/O重定向，内部命令ls、dir、environ、set、echo、help支持I/O重定向。
+    '<'重定向标志重定向stdin至[inputfile]中。
+    '>'或'>>'重定向标志重定向stdout至[outputfile]中；其中'>'会覆盖原文件，'>>'会将输出内容附加至原文件尾部。

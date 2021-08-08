@@ -1,0 +1,2 @@
+exec: exec [command [arg1] [arg2] ... [argn]]
+    用带参数[arg1]~[argn]的[command]命令替换掉当前运行的myshell进程。

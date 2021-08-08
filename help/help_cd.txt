@@ -1,0 +1,3 @@
+cd: cd ([dir])
+    更改myshell的工作目录为[dir]。
+    如果不带参数则更改myshell工作目录为用户主目录。
